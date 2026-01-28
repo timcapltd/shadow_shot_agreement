@@ -1,0 +1,62 @@
+# --- OS / Editor junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim / Swap
+*.swp
+*.swo
+*~
+
+# --- Node / build artifacts (if you ever use tooling) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# --- Python (if you ever use scripts) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Local env files / secrets ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Temporary / backups ---
+tmp/
+temp/
+*.bak
+
+# --- GitHub Pages / Jekyll (optional) ---
+.jekyll-cache/
+.sass-cache/
+_site/
+
